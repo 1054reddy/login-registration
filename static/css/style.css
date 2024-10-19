@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url('https://wallpaperaccess.com/full/1900851.png') no-repeat center ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.registration-container {
+    background:url('https://cdn1.vectorstock.com/i/1000x1000/73/90/new-color-trendy-blurry-smooth-mesh-background-vector-27727390.jpg');
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.registration-container h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.registration-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+
+.registration-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.registration-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.registration-container button:hover {
+    background-color: #218838;
+}
+
+#statusMessage {
+    margin-top: 10px;
+}
+
+.error {
+    color: red;
+}
+
+.success {
+    color: green;
+}
